@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Database\Eloquent\Model;
 
 class DatabaseSeeder extends Seeder
 {
@@ -11,14 +12,19 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-
+/*
         for ($i=0;$i<10; $i++)
+        */
         {
-        DB::table('articles')->insert([
-            'title' => str_random(10),
-            'content' => str_random(255),
+
+        DB::table('admin')->insert([
+            'name' =>'loveaoe33',
+            'email'=>'loveaoe33@gmail.com',
+            'password'=>Hash::make('love20720'),
+            'remember_token'=>str_random(10),
         
         ]);
         };
+   
     }
 }
