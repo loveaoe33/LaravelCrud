@@ -20,8 +20,11 @@ Route::get('/adminView', 'adminViewController@index');
 
 
 Route::get('/test', 'testController@index');
-
+Route::get('/login2', 'MainController@index');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+
