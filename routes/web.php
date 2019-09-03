@@ -20,7 +20,7 @@ Route::get('/adminView', 'adminViewController@index');
 
 
 Route::get('/test', 'testController@index');
-Route::get('/login2', 'MainController@index');
+Route::get('/Main', 'MainController@index');
 
 Auth::routes();
 
