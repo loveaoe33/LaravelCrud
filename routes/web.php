@@ -21,6 +21,8 @@ Route::get('/adminView', 'adminViewController@index');
 
 Route::get('/test', 'testController@index');
 Route::get('/Main', 'MainController@index');
+Route::post('/section', 'MainController@test');
+Route::get('/Chugen', 'MainController@Chugen');
 
 Auth::routes();
 

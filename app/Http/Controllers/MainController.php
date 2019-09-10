@@ -19,4 +19,8 @@ class MainController extends Controller
         ]
         );
     }
+    public function Chugen()
+    {
+       return view('article.Chugen');
+    }
 }

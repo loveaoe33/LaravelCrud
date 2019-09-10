@@ -1,0 +1,13 @@
+.loginbody 
+{
+
+
+    
+width:400px;
+    height:120px;
+    background-image:url("/public/background1.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    border:1px #ccc solid;
+    background-size:660px 500px;
+}
