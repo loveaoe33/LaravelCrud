@@ -18,22 +18,42 @@ Large button <span class="caret"></span>
 
     <div class="col-6" align="center" >
     <table class="table">
-  <thead class="thead-dark" align="center">
+  <thead class="thead-dark" align="center" table style="border:8px #FFD382 groove;" cellpadding="10" border='0'>
     <tr>
-      <th>重仁骨科公布欄</th>
-     
+      <th>test1</th>
+      <th>test2</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
+      <td>testtesttesttesttesttesttesttesttesttesttest</td>
+      <td>testtesttesttesttesttesttesttesttesttesttest</td>
 
+    </tr>
+    <tr>
+      <td>testtesttesttesttesttesttesttesttesttesttest</td>
+      <td>testtesttesttesttesttesttesttesttesttesttest</td>
+
+    </tr>
+    <tr>
+      <td>testtesttesttesttesttesttesttesttesttesttest</td>
+   
+      <td>testtesttesttesttesttesttesttesttesttesttest</td>
+    </tr>
+    <tr>
+      <td>testtesttesttesttesttesttesttesttesttesttest</td>
+   
+      <td>testtesttesttesttesttesttesttesttesttesttest</td>
     </tr>
 
   </tbody>
 </table>
 
-
+<div class="row">
+    <div class="col-3">
+1313213
+</div>
+</div>
 
 </div>
   </section>
